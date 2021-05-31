@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 3%;
+    width: 650px;
+    max-width: 90%;
+    background-color: rgb(142, 142, 175);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.logo-area{
+    background-color: rgb(75, 75, 131);
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.messagearea{
+    background-color: rgba(218, 211, 211, 0.945);
+    height: 400px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.text-area{
+    display: flex;
+}
+#textarea{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: rgb(75, 75, 131);
+    resize:none;
+}
+button{
+    margin-left: 5px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(46, 46, 116);
+    font:bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(21, 21, 99);
+}
+.individual-msg{
+    background-color: rgb(148, 148, 218);
+    padding: 8px;
+    border-radius: 4px;
+    width: 45%;
+    margin: 2%;
+}
+#receive_message{
+    /* background-color:  rgb(142, 142, 175); */
+    /* color: #ffffff; */
+    background-color: #ffffff;
+}
+#send_message{
+    background-color: rgb(75, 75, 131);
+    color: #ffffff;
+    margin-left: auto;
+}
